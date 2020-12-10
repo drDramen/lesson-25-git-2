@@ -1,0 +1,44 @@
+    1  pwg
+    2  pwd
+    3  cd /d/Programming/2020/stfalcon/2020/2020-12/lesson_25_homework/
+    4  ls
+    5  mkdir -p git/test-1 && mv todo.txt git/test-1/
+    6  ls
+    7  cd git
+    8  ls
+    9  cd test-1
+   10  ls
+   11  nano todo.txt 
+   12  git status
+   13  git init
+   14  git status
+   15  git add .
+   16  git commit -m 'traveler-commit'
+   17  git branch -M main
+   18  git remote add remote-1 git@github.com:drDramen/lesson-25-git.git
+   19  git remote -v
+   20  git fetch remote-1 
+   21  git push -u remote-1 main
+   22  cd .. && mkdir test-2
+   23  ls
+   24  cd test-2
+   25  git clone git@github.com:drDramen/lesson-25-git.git
+   26  git status
+   27  ls
+   28  rm -rf lesson-25-git/
+   29  git clone git@github.com:drDramen/lesson-25-git.git .
+   30  git remote -v
+   31  git remote add remote-2 git@github.com:drDramen/lesson-25-git-2.git
+   32  git remote -v
+   33  git status
+   34  ls
+   35  nano todo.txt 
+   36  git status
+   37  git add .
+   38  git commit -m 'traveler-commit'
+   39  git push -u remote-2 main
+   40  mkdir ../test-3 && cd ../test-3/
+   41  git clone git@github.com:drDramen/lesson-25-git-2.git .
+   42  ls
+   43  nano todo.txt 
+   44  history > history.txt
